@@ -1,0 +1,106 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-size: 18px;
+  font-family: "Kumbh Sans", sans-serif;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  color: hsl(229, 23%, 23%);
+  font-weight: 700;
+  background-color: hsl(185, 75%, 39%);
+  overflow: hidden;
+}
+h2 {
+  font-size: 100%;
+}
+.circle-top {
+  position: absolute;
+  left: -300px;
+  top: -460px;
+}
+.circle-bottom {
+  position: absolute;
+  bottom: -73.4%;
+  right: -14%;
+  z-index: -1;
+}
+.profile-card {
+  height: 375px;
+  width: 350px;
+  background-color: transparent;
+  border-radius: 15px;
+  box-shadow: 2px 2px 20px hsl(0, 0%, 59%);
+  position: relative;
+  background-color: #fff;
+}
+[class^="section"] {
+  width: 100%;
+}
+.section-top {
+  height: 35%;
+  background-image: url(images/bg-pattern-card.svg);
+  border-radius: 15px 15px 0 0;
+}
+.section-middle {
+  height: 40%;
+  border-top: 0.5px solid hsl(227, 10%, 90%);
+}
+.section-bottom {
+  height: 25%;
+  background-color: ;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  border-top: 0.5px solid hsl(227, 10%, 90%);
+  border-radius: 0 0 15px 15px;
+}
+[class^="stats"] {
+  max-width: 20%;
+  text-align: center;
+  letter-spacing: 1px;
+}
+span {
+  font-size: 60%;
+  font-weight: 300;
+  color: hsl(227, 10%, 46%);
+  line-height: 2px;
+}
+
+.section-middle {
+  position: relative;
+  text-align: center;
+  top: 80px;
+  border-top: hsl(227, 10%, 46%);
+}
+.section-middle h2 span {
+  font-size: 100%;
+  font-weight: 300;
+  margin-left: 1%;
+  color: hsl(227, 10%, 46%);
+}
+.section-middle p span {
+  font-size: 80%;
+}
+.section-middle p {
+  line-height: 40px;
+}
+.profile-picture {
+  position: absolute;
+  top: 21%;
+  left: 35%;
+}
+.profile-picture img {
+  border-radius: 50%;
+  border: 5px solid #fff;
+}
